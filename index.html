@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Leon</title>
+		<!-- Google Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;800&display=swap"
+			rel="stylesheet"
+		/>
+
+		<!-- Font Awesome -->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+			integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+
+		<!-- Custom CSS -->
+		<link rel="stylesheet" href="main.css" />
+
+		<!-- JavaScript -->
+
+		<script src="main.js" defer></script>
+	</head>
+
+	<body>
+		<!-- Header Start -->
+
+		<header class="primary-header">
+			<div class="container flex">
+				<div>
+					<img src="/img/logo.png" alt="Leon logo" class="logo" />
+				</div>
+
+				<button
+					class="mobile-nav-toggle"
+					aria-controls="primary-navigation"
+				>
+					<span class="visually-hidden" aria-expanded="false"
+						>Menu</span
+					>
+				</button>
+
+				<nav class="nav">
+					<ul
+						id="primary-navigation"
+						data-visible="false"
+						class="primary-navigation flex"
+					>
+						<li>
+							<a href="#home" class="nav__link">Home</a>
+						</li>
+						<li>
+							<a href="#services" class="nav__link">Services</a>
+						</li>
+						<li>
+							<a href="#portfolio" class="nav__link">Portfolio</a>
+						</li>
+						<li>
+							<a href="#about" class="nav__link">About</a>
+						</li>
+						<li>
+							<a href="#contact" class="nav__link">Contact</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<!-- Header End -->
+
+		<!-- Main content start -->
+
+		<main class="flow">
+			<!-- Intro Section Start -->
+
+			<section id="home" class="intro grid">
+				<div class="container">
+					<h1 class="intro__title">Hello There!</h1>
+					<p class="intro__txt">
+						We are Leon - Super Creative &amp; Minimal Agency Web
+						Template.
+					</p>
+				</div>
+			</section>
+
+			<!-- Intro Section End -->
+
+			<!-- Work Section Start -->
+
+			<section class="work">
+				<div class="container grid-container">
+					<div class="col">
+						<i class="fa-solid fa-wand-magic-sparkles"></i>
+						<h2 class="work__title">Tell Us Your Idea</h2>
+						<p class="work__desc">
+							Lorem ipsum dolor sit amet, consectetur adipiscing
+							elit, sed do eiusmod tempor incididunt ut lab
+						</p>
+					</div>
+
+					<div class="col">
+						<i class="fa-regular fa-gem"></i>
+
+						<h2 class="work__title">We Will Do All The Work</h2>
+						<p class="work__desc">
+							Lorem ipsum dolor sit amet, consectetur adipiscing
+							elit, sed do eiusmod tempor incididunt ut lab
+						</p>
+					</div>
+
+					<div class="col">
+						<i class="fa-solid fa-earth-africa"></i>
+						<h2 class="work__title">Your Product is Worldwide</h2>
+						<p class="work__desc">
+							Lorem ipsum dolor sit amet, consectetur adipiscing
+							elit, sed do eiusmod tempor incididunt ut lab
+						</p>
+					</div>
+				</div>
+			</section>
+
+			<!-- work Section End -->
+
+			<!-- Services Section Start -->
+
+			<section id="services" class="services container">
+				<div class="section__intro">
+					<h2 class="section__title">services</h2>
+					<p>Don't be busy, be productive</p>
+				</div>
+
+				<div class="services__content grid-container">
+					<div class="col">
+						<div class="row">
+							<i class="fa-solid fa-pencil"></i>
+							<div>
+								<h3 class="service__title">Graphic Design</h3>
+								<p>
+									Graphic design is the process of visual
+									communication and problem-solving using one
+									or more of typography, photography and
+									illustration
+								</p>
+							</div>
+						</div>
+
+						<div class="row">
+							<i class="fa-solid fa-link"></i>
+							<div>
+								<h3 class="service__title">UI &amp; UX</h3>
+								<p>
+									Process of enhancing user satisfaction with
+									a product by improving the usability,
+									accessibility, and pleasure provided in the
+									interaction.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="row">
+							<i class="fa-solid fa-sliders"></i>
+							<div>
+								<h3 class="service__title">Web Design</h3>
+								<p>
+									Web design encompasses many different skills
+									and disciplines in the production and
+									maintenance of websites.
+								</p>
+							</div>
+						</div>
+
+						<div class="row">
+							<i class="fa-solid fa-laptop"></i>
+							<div>
+								<h3 class="service__title">Web Development</h3>
+								<p>
+									Web development is a broad term for the work
+									involved in developing a web site for the
+									Internet or an intranet.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="img">
+							<span><img src="/img/service.jpg" alt="" /></span>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Services Section End -->
+
+			<!-- Portfolio Section Start -->
+
+			<section id="portfolio" class="portfolio">
+				<div class="container">
+					<div class="section__intro">
+						<h2 class="section__title">portfolio</h2>
+						<p>If you do it right, it will last forever</p>
+					</div>
+
+					<div class="portfolio__content grid-container">
+						<article class="project">
+							<div class="img">
+								<img src="/img/p-1.jpg" alt="" />
+							</div>
+							<div class="project__content">
+								<h3 class="project__title">New Project</h3>
+								<p>
+									My creative ability is very difficult to
+									measure because it can manifest in so many
+									surprising and.
+								</p>
+							</div>
+						</article>
+
+						<article class="project">
+							<div class="img">
+								<img src="/img/p-2.jpg" alt="" />
+							</div>
+							<div class="project__content">
+								<h3 class="project__title">New Project</h3>
+								<p>
+									My creative ability is very difficult to
+									measure because it can manifest in so many
+									surprising and.
+								</p>
+							</div>
+						</article>
+
+						<article class="project">
+							<div class="img">
+								<img src="/img/p-3.jpg" alt="" />
+							</div>
+							<div class="project__content">
+								<h3 class="project__title">New Project</h3>
+								<p>
+									My creative ability is very difficult to
+									measure because it can manifest in so many
+									surprising and.
+								</p>
+							</div>
+						</article>
+					</div>
+				</div>
+			</section>
+
+			<!-- Portfolio Section End -->
+
+			<!-- About Section Start -->
+
+			<section id="about" class="about container">
+				<div class="section__intro">
+					<h2 class="section__title">about</h2>
+					<p>Less is more work</p>
+				</div>
+
+				<div class="about__content grid-container">
+					<div class="img">
+						<span><img src="/img/about.jpg" alt="" /></span>
+					</div>
+
+					<div class="about__text">
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing
+							elit, sed do eiusmod tempor incididunt ut labore et
+							dolore magna aliqua. Ut enim ad minim veniam, quis
+							nostrud exercitation ullamco laboris nisi ut aliqui
+						</p>
+
+						<div role="separator"></div>
+
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing
+							elit, sed do eiusmod tempor incididunt ut labore et
+							dolore magna aliqua. Ut enim ad minim veniam, quis
+							nostrud exercitation ullamco laboris nisi ut aliqu
+						</p>
+					</div>
+				</div>
+			</section>
+
+			<!-- About Section End -->
+
+			<!-- Contact Section Start -->
+
+			<section id="contact" class="contact">
+				<div class="container">
+					<div class="section__intro">
+						<h2 class="section__title">contact</h2>
+						<p>I was born to create</p>
+					</div>
+
+					<div class="contact__content grid">
+						<div class="email">
+							<p>Feel free to drop us a line at:</p>
+							<a href="mailto:leonagency@mail.com"
+								>leonagency@mail.com</a
+							>
+						</div>
+
+						<div class="social flex">
+							Find us on social networks:
+							<ul class="social__list flex">
+								<li>
+									<a href="#"
+										><i class="fa-brands fa-dribbble"></i
+									></a>
+								</li>
+								<li>
+									<a href="#"
+										><i class="fa-brands fa-behance"></i
+									></a>
+								</li>
+								<li>
+									<a href="#"
+										><i class="fa-brands fa-twitter"></i
+									></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Start Section End -->
+		</main>
+
+		<!-- Main content End -->
+
+		<!-- Footer Section Start -->
+
+		<footer class="footer">
+			<div class="container">
+				<p class="copyright">
+					© 2019 - <span class="copyright--light">Leon</span>, All
+					Right Reserved
+				</p>
+			</div>
+		</footer>
+
+		<!-- Footer Section End -->
+	</body>
+</html>
