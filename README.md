@@ -13,12 +13,11 @@
 
 ### Screenshot
 
-![My solution](/screenshot1.png)
+![My solution](/screenshot.jpg)
 
 ### Links
 
-- Solution URL: [Solution](https://github.com/ZahouaniHoud/product-preview-card-component)
-- Live Site URL: [View Live](https://product-preview-card-zahouani.netlify.app/)
+- Live Site URL: [View Live](https://leon-agency-zahouani.netlify.app/)
 
 ## Built with
 
